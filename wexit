@@ -1,0 +1,78 @@
+[33mcommit 3c06723b2cb89d504d2e95fd6fb8cbe68712c9f8[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Juan Luis Cuadrado <jlcuadrado@solofisa.sf>
+Date:   Tue Mar 13 11:57:40 2018 +0100
+
+    Calculadora:Autores
+
+[1mdiff --git a/calculator.html b/calculator.html[m
+[1mindex 839b37e..9669781 100644[m
+[1m--- a/calculator.html[m
+[1m+++ b/calculator.html[m
+[36m@@ -9,6 +9,7 @@[m [mfunction square() {[m
+ </script>[m
+ </head>[m
+ <body>[m
+[32m+[m	[32m<h1>Juan Luis Cuadrado López</h1>[m
+   Number:[m
+   <input type="text" id="n1"><p>[m
+ [m
+
+[33mcommit e868dc46711f323fc5b9eb568e117446fc90b03a[m[33m ([m[1;32minverse[m[33m)[m
+Author: Juan Quemada <jquemada@dit.upm.es>
+Date:   Tue Feb 14 22:38:24 2017 +0100
+
+    1/x button
+
+[1mdiff --git a/calculator.html b/calculator.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..fc74320[m
+[1m--- /dev/null[m
+[1m+++ b/calculator.html[m
+[36m@@ -0,0 +1,17 @@[m
+[32m+[m[32m<!DOCTYPE html><html><head>[m
+[32m+[m[32m<title>Calculator</title><meta charset="utf-8">[m
+[32m+[m[32m<script type="text/javascript">[m
+[32m+[m
+[32m+[m[32mfunction inverse() {[m
+[32m+[m[32m  var num = document.getElementById("n1");[m
+[32m+[m[32m  num.value = 1/num.value;[m
+[32m+[m[32m}[m
+[32m+[m[32m</script>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m[32m  Number:[m
+[32m+[m[32m  <input type="text" id="n1"><p>[m
+[32m+[m
+[32m+[m[32m  <button onclick="inverse()"> 1/x </button>[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+
+[33mcommit b0e63ad0a57510d65814ac8ff98c7eb16bf359c1[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Juan Quemada <jquemada@dit.upm.es>
+Date:   Tue Feb 14 19:23:10 2017 +0100
+
+    x^2 button
+
+[1mdiff --git a/calculator.html b/calculator.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..839b37e[m
+[1m--- /dev/null[m
+[1m+++ b/calculator.html[m
+[36m@@ -0,0 +1,17 @@[m
+[32m+[m[32m<!DOCTYPE html><html><head>[m
+[32m+[m[32m<title>Calculator</title><meta charset="utf-8">[m
+[32m+[m[32m<script type="text/javascript">[m
+[32m+[m
+[32m+[m[32mfunction square() {[m
+[32m+[m[32m  var num = document.getElementById("n1");[m
+[32m+[m[32m  num.value = num.value * num.value;[m
+[32m+[m[32m}[m
+[32m+[m[32m</script>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m[32m  Number:[m
+[32m+[m[32m  <input type="text" id="n1"><p>[m
+[32m+[m
+[32m+[m[32m  <button onclick="square()"> x<sup>2</sup> </button>[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
